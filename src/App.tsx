@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Input } from "./components";
+import { Button, Combobox, Input } from "./components";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         title="Form Validação onSubmit"
         onClick={() => console.log("clicou")}
       />
+      <Combobox label="Tipo" placeholder="Selecione o tipo" />
     </div>
   );
 }
