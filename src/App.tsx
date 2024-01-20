@@ -1,11 +1,14 @@
 import React from "react";
-import { Button } from "./components";
+import { Button, Input } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <Button />
-      <Button />
+      <Input title="Name" placeholder="Insira seu nome aqui..." />
+      <Button
+        title="Form Validação onSubmit"
+        onClick={() => console.log("clicou")}
+      />
     </div>
   );
 }
